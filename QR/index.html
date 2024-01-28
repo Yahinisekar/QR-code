@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <label for="qrcode_value">Generate QR code</label><br>
+    <input type="text" id="qrcode_value" placeholder="Enter url to generate a QR Code"><br>
+    <button onclick="generate()">Generate!</button><br/>
+    <div id="btn"></div>
+    </div>
+    <script src="./script.js"></script>
+        <!-- <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+</body>
+</html>
